@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <br><br><label for="datan">Data da Reserva:</label><br><br>
+        <input type="date" id="datan" name="datan"  min="2025-02-21" required>
+
+
+       
+        <br><br> <label for="c">Hórario de inicio</label><br><br>
+        <input type="time" id="c" name="c" required>
+
+        <br><br> <label for="t">Hórario de Termino</label><br><br>
+        <input type="time" id="t" name="t" required >
+
+        <br><br> <label for="s">Tipo de sala:</label><br><br>
+        <br><br><input type="radio" id="reu" name="reu" value="reunião"required>
+     <label for="reunião">Reunião</label><br>
+    <br><br> <input type="radio" id="tre" name="tre" value="treinamento"required>
+      <label for="treinamento">Treinamento</label><br>
+     <br><br><input type="radio" id="in" name="in" value="Individual"required>
+      <label for="Individual">Individual</label>
+
+<br><br><br><br><label for="quanti">Quantidade de pessoas (1 e 12):</label><br><br>
+<input type="number" id="quanti" name="quanti" min="1" max="12"required>
+
+<br><br><input type="submit" value="Entrar">
+
+
+      </form>
+</body>
+</html>
